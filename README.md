@@ -8,13 +8,11 @@ The third issue shows as a sample question for the second part of the HITs, and 
 
 The fourth issue describes our quality control and data aggregation methods. The quality control is taken care of in the first part of the HITs (as described above), and our aggregation model is fairly simple--it involves averaging the responses to questions in part two of the HITs (i.e., "what would you be willing to pay for the product below?" or "how much is the product below worth?") and showing that there is statistically significant change in average reservation prices for a given product for workers that have been primed vs. those that have not been primed. We will also break averages down further into the method of priming (images vs. words). 
 
-The fifth issue contains the set of 10 images that the primed group will see. For each image, the worker will be asked whether the picture contains a dog. Seven of the images contain a dog, all of the images have a luxury item or association. 
+The folder priming_pics contains the set of 10 images that the primed group will see. For each image, the worker will be asked whether the picture contains a dog. Seven of the images contain a dog, all of the images have a luxury item or association. 
 
-The sixth issue contains the set of 10 images that the control group will see. For each image, the worker will be asked whether the picture contains a dog. Seven of the images contain a dog, none of the images have a luxury item or association.
+The folder control_pics contains the set of 10 images that the control group will see. For each image, the worker will be asked whether the picture contains a dog. Seven of the images contain a dog, none of the images have a luxury item or association.
 
-The seventh issue contains the set of 10 words that the primed group will see. Five of these words (Rolex, Ferrari, Mansion, Tahiti, and Fashion) have an association with luxury and wealth. The other five are just normal everyday words.
-
-The eight issue contains the set of 10 words that the control group will see. It contains the same normal everyday words that the seventh issue contains, plus five more normal everyday words. 
+The document NETS_final_proj_words.docx contains the set of 10 words that the primed group will see. Five of these words (Rolex, Ferrari, Mansion, Tahiti, and Fashion) have an association with luxury and wealth. The other five are just normal everyday words. It also contains the set of 10 words that the control group will see. These are the same normal everyday words that the primed group will see, plus five more normal everyday words. 
 
 We have not included code for QC and aggregation methods because that will all be included in the HITs or done in CrowdFlower. 
 
@@ -22,5 +20,5 @@ The first two issues from the mockup also act as QC questions, and sample output
 
 Data aggregation is a simple averaging of responses, so we did not include sample input/output.
 
-We also did not inlcude a flow diagram because it did not seem applicable to our project. We will be designing HITs from our data and analyzing users' responses, so data flow is fairly straight forward. 
+We also did not include a flow diagram because it did not seem applicable to our project. We will be designing HITs from our data and analyzing users' responses, so data flow is fairly straight forward. 
 
